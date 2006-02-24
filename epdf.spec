@@ -1,11 +1,11 @@
+%define	_snap	20060223
 Summary:	pdf viewer using Enlightenment libraries
 Summary(pl):	Przegl±darka pdfów u¿ywaj±ca bibliotek Enlightenmenta
 Name:		epdf
 Version:	0.1
-%define	_snap	20060223
 Release:	0.%{_snap}.1
 License:	BSD
-Group:		X11/Window Managers/Tools
+Group:		X11/Applications/Graphics
 Source0:	http://sparky.homelinux.org/snaps/enli/e17/proto/%{name}-%{_snap}.tar.bz2
 # Source0-md5:	764ddf9621a7d810872b8283ec0d2ced
 URL:		http://enlightenment.org/
