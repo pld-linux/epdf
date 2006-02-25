@@ -1,6 +1,6 @@
 %define	_snap	20060223
 Summary:	pdf viewer using Enlightenment libraries
-Summary(pl):	Przegl±darka pdfów u¿ywaj±ca bibliotek Enlightenmenta
+Summary(pl):	Przegl±darka PDF-ów u¿ywaj±ca bibliotek Enlightenmenta
 Name:		epdf
 Version:	0.1
 Release:	0.%{_snap}.1
@@ -22,7 +22,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 epdf is an image pdf using Enlightenment libraries.
 
 %description -l pl
-epdf to przegl±darka pdfów u¿ywaj±ca bibliotek Enlightenmenta.
+epdf to przegl±darka PDF-ów u¿ywaj±ca bibliotek Enlightenmenta.
 
 %package libs
 Summary:	epdf library
@@ -80,8 +80,8 @@ rm -rf $RPM_BUILD_ROOT
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%post libs	-p /sbin/ldconfig
-%postun	libs	-p /sbin/ldconfig
+%post	libs -p /sbin/ldconfig
+%postun	libs -p /sbin/ldconfig
 
 %files
 %defattr(644,root,root,755)
@@ -90,7 +90,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files libs
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_libdir}/libepdf.*.*.*
+%attr(755,root,root) %{_libdir}/libepdf.so.*.*.*
 
 %files devel
 %defattr(644,root,root,755)
