@@ -1,6 +1,6 @@
 %define	_snap	20060308
 Summary:	pdf viewer using Enlightenment libraries
-Summary(pl.UTF-8):   Przeglądarka PDF-ów używająca bibliotek Enlightenmenta
+Summary(pl.UTF-8):	Przeglądarka PDF-ów używająca bibliotek Enlightenmenta
 Name:		epdf
 Version:	0.1
 Release:	0.%{_snap}.1
@@ -26,7 +26,7 @@ epdf to przeglądarka PDF-ów używająca bibliotek Enlightenmenta.
 
 %package libs
 Summary:	epdf library
-Summary(pl.UTF-8):   Biblioteka epdf
+Summary(pl.UTF-8):	Biblioteka epdf
 Group:		Libraries
 
 %description libs
@@ -37,7 +37,7 @@ Biblioteka epdf.
 
 %package devel
 Summary:	Header files for epdf library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki epdf
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki epdf
 Group:		Development/Libraries
 Requires:	%{name}-libs = %{version}-%{release}
 
@@ -49,7 +49,7 @@ Ten pakiet zawiera pliki nagłówkowe biblioteki epdf.
 
 %package static
 Summary:	Static epdf library
-Summary(pl.UTF-8):   Statyczna biblioteka epdf
+Summary(pl.UTF-8):	Statyczna biblioteka epdf
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
