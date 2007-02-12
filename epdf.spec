@@ -1,6 +1,6 @@
 %define	_snap	20060308
 Summary:	pdf viewer using Enlightenment libraries
-Summary(pl):	Przegl眃arka PDF-體 u縴waj眂a bibliotek Enlightenmenta
+Summary(pl.UTF-8):   Przegl膮darka PDF-贸w u偶ywaj膮ca bibliotek Enlightenmenta
 Name:		epdf
 Version:	0.1
 Release:	0.%{_snap}.1
@@ -21,42 +21,42 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 epdf is an image pdf using Enlightenment libraries.
 
-%description -l pl
-epdf to przegl眃arka PDF-體 u縴waj眂a bibliotek Enlightenmenta.
+%description -l pl.UTF-8
+epdf to przegl膮darka PDF-贸w u偶ywaj膮ca bibliotek Enlightenmenta.
 
 %package libs
 Summary:	epdf library
-Summary(pl):	Biblioteka epdf
+Summary(pl.UTF-8):   Biblioteka epdf
 Group:		Libraries
 
 %description libs
 epdf library.
 
-%description libs -l pl
+%description libs -l pl.UTF-8
 Biblioteka epdf.
 
 %package devel
 Summary:	Header files for epdf library
-Summary(pl):	Pliki nag丑wkowe biblioteki epdf
+Summary(pl.UTF-8):   Pliki nag艂贸wkowe biblioteki epdf
 Group:		Development/Libraries
 Requires:	%{name}-libs = %{version}-%{release}
 
 %description devel
 This is the package containing the header files for epdf library.
 
-%description devel -l pl
-Ten pakiet zawiera pliki nag丑wkowe biblioteki epdf.
+%description devel -l pl.UTF-8
+Ten pakiet zawiera pliki nag艂贸wkowe biblioteki epdf.
 
 %package static
 Summary:	Static epdf library
-Summary(pl):	Statyczna biblioteka epdf
+Summary(pl.UTF-8):   Statyczna biblioteka epdf
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static epdf library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka epdf
 
 %prep
